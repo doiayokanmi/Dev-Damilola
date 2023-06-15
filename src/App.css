@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: myFont;
+  src: url(/src/fonts/U8-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+:root {
+  --paddingValue: 1.2em 3em;
+  --whiteColor: #fff;
+  --greyColor: #ededed;
+  --blackColor: #28282B;
+  --primaryColor: #e7053e;
+  --secondaryColor: #683ca2;
+}
+
+header {
+  height: 100vh;
+  background-color: var(--greyColor);
+}
+
+.flex {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: var(--blackColor);
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: myFont;
+}
+
+nav img {
+  width: 180px;
+}
+
+nav div a {
+  margin-left: 1.2em;
+}
+
+#mobileMenu {
+  display: none;
+}
+
+a i {
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: var(--primaryColor)
+}
+
+#navLink {
+  color: ;
+}
+
+nav {
+  padding: var(--paddingValue);
+  background-color: var(--whiteColor);
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
