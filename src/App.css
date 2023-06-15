@@ -13,7 +13,8 @@
 }
 
 :root {
-  --paddingValue: 1.2em 3em;
+  --paddingValue: 1.2em 5em;
+  --borderRadius: 8px;
   --whiteColor: #fff;
   --greyColor: #ededed;
   --blackColor: #28282B;
@@ -86,19 +87,20 @@ nav {
   background-color: var(--secondaryColor);
   padding: .6em;
   color: var(--whiteColor);
-  border-radius: 10px;
-  transition: .4s ease-in-out;
+  border-radius: var(--borderRadius);
+  transition: .2s ease-in-out;
 }
 
-.linkBtn:hover {
+.linkBtn:hover, #downloadBtn:hover {
   background-color: var(--primaryColor);
   color: var(--greyColor);
+  border: none;
 }
 
 #heroSec {
   height: 100vh;
   padding-top: 400px;
-  padding: 140px 3em;
+  padding: 140px 5em;
   display: flex;
   justify-content: space-between;
 }
@@ -109,9 +111,32 @@ nav {
 
 #heroSec div img {
   width: 350px;
+  border-radius: var(--borderRadius);
 }
 
 #about {
   padding: var(--paddingValue);
+  height: 50vh;
   background-color: var(--greyColor);
+}
+
+#innerAbout {
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  background-color: var(--whiteColor);
+  border-radius: var(--borderRadius);
+  margin-top: 100px;
+}
+
+#innerAbout img {
+  width: 250px;
+  border-radius: var(--borderRadius);
+  margin-right: 50px;
+}
+
+#downloadBtn {
+  background-color: transparent;
+  border: 1px solid var(--secondaryColor);
+  color: var(--secondaryColor);
 }

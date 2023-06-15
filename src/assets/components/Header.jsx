@@ -55,9 +55,9 @@ const Header = () => {
             </h1>
 
             <h2>
-            Your Favorite {" "}
+            An Expert in {" "}
             <TypeAnimation
-              sequence={["Front-End Dev", 1000, "MERN Stack", 1000, "Express JS", 1000, "JavaScript", 1000, "React Developer", 1000]}
+              sequence={["Front-End Dev", 1000, "CSS3", 1000, "SaaS", 1000, "Bootstrap", 1000, "MERN Stack", 1000, "Express JS", 1000, "JavaScript", 1000, "React JS", 1000, "HTML5", 1000, ]}
               style={{ fontSize: "1em" }}
               repeat={Infinity}
             />
@@ -71,13 +71,13 @@ const Header = () => {
             </p>
 
 
-            <a href="" className="linkBtn p-3 mt-5">
+            <a href="" className="linkBtn mt-5">
               Hire Me
             </a>
           </div>
 
           <div id="heroImg">
-            <img src={myPics} alt="" className="img-fluid rounded-5 float-end" />
+            <img src={myPics} alt="" className="img-fluid float-end" />
           </div>
         </section>
       </header>
