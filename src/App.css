@@ -9,7 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: myFont;
 }
 
 :root {
@@ -21,10 +21,24 @@
   --secondaryColor: #683ca2;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
 header {
   height: 100vh;
+  overflow: hidden;
   background-color: var(--greyColor);
 }
+
+span {
+  color: var(--primaryColor);
+}
+
 
 .flex {
   display: flex;
@@ -50,23 +64,54 @@ nav div a {
   display: none;
 }
 
-a i {
-  margin-right: 10px;
+i {
+  font-size: 1.4em;
 }
 
 nav a:hover {
   color: var(--primaryColor)
 }
 
-#navLink {
-  color: ;
-}
-
 nav {
   padding: var(--paddingValue);
   background-color: var(--whiteColor);
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   top: 0;
   width: 100vw;
+}
+
+.linkBtn {
+  background-color: var(--secondaryColor);
+  padding: .6em;
+  color: var(--whiteColor);
+  border-radius: 10px;
+  transition: .4s ease-in-out;
+}
+
+.linkBtn:hover {
+  background-color: var(--primaryColor);
+  color: var(--greyColor);
+}
+
+#heroSec {
+  height: 100vh;
+  padding-top: 400px;
+  padding: 140px 3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+#heroSec div {
+  flex-basis: 50%;
+}
+
+#heroSec div img {
+  width: 350px;
+}
+
+#about {
+  padding: var(--paddingValue);
+  background-color: var(--greyColor);
 }
