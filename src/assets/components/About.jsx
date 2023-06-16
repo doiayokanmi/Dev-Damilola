@@ -27,6 +27,18 @@ const About = () => {
               <a href="" className="linkBtn" id="downloadBtn">Download CV</a>
             </div>
           </div>
+
+          <div id="social">
+          <a href="">
+              <i className="fa-brands fa-square-twitter"></i>
+            </a>
+            <a href="">
+              <i className="fa-brands fa-square-github"></i>
+            </a>
+            <a href="">
+              <i className="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
         </div>
       </section>
     </>

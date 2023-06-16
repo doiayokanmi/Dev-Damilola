@@ -1,12 +1,41 @@
 import { TypeAnimation } from "react-type-animation";
+import React, { useState, useEffect } from "react";
 
 const Header = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const [backgroundColor, setBackgroundColor] = useState("transparent");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const position = window.scrollY;
+      setScrollPosition(position);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (scrollPosition > 50) {
+      setBackgroundColor("var(--whiteColor)");
+    } else {
+      setBackgroundColor("transparent");
+    }
+  }, [scrollPosition]);
+
   let Logo = "./public/image/logo.png";
-  let myPics = "./public/image/myPic (2).png"
+  let myPics = "./public/image/myPic (2).png";
   return (
     <>
       <header>
-        <nav className="flex">
+        <nav
+          className="flex"
+          style={{
+            backgroundColor: backgroundColor,
+          }}
+        >
           <a href="">
             <img className="img-fluid" src={Logo} alt="" id="brandLogo" />
           </a>
@@ -55,21 +84,39 @@ const Header = () => {
             </h1>
 
             <h2>
-            An Expert in {" "}
-            <TypeAnimation
-              sequence={["Front-End Dev", 1000, "CSS3", 1000, "SaaS", 1000, "Bootstrap", 1000, "MERN Stack", 1000, "Express JS", 1000, "JavaScript", 1000, "React JS", 1000, "HTML5", 1000, ]}
-              style={{ fontSize: "1em" }}
-              repeat={Infinity}
-            />
+              An Expert in{" "}
+              <TypeAnimation
+                sequence={[
+                  "Front-End Dev",
+                  1000,
+                  "CSS3",
+                  1000,
+                  "SaaS",
+                  1000,
+                  "Bootstrap",
+                  1000,
+                  "MERN Stack",
+                  1000,
+                  "Express JS",
+                  1000,
+                  "JavaScript",
+                  1000,
+                  "React JS",
+                  1000,
+                  "HTML5",
+                  1000,
+                ]}
+                style={{ fontSize: "1em" }}
+                repeat={Infinity}
+              />
             </h2>
 
-            <p className="mb-5">
+            <p className="mb-5 text-light">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Asperiores voluptatibus officia similique repellendus pariatur,
               vitae reiciendis dolore temporibus nobis aspernatur! Voluptates
               cumque dicta aut culpa suscipit, unde dolorem odit sunt.
             </p>
-
 
             <a href="" className="linkBtn mt-5">
               Hire Me
