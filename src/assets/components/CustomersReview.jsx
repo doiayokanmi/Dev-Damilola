@@ -11,9 +11,8 @@ const CustomersReview = () => {
 
       <h3>Customer Reviews</h3>
       <Swiper
-        navigation
         slidesPerView={3}
-        spaceBetween={40}
+        spaceBetween={20}
         grabCursor={true}
         autoplay={{ delay: 3000 }}
         loop={true}
