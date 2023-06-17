@@ -1,6 +1,51 @@
 import React from "react";
 
 const Portfolio = () => {
+
+  const portfolio = [
+    {
+      title: "PiggyVest Landing Page",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/piggyvest.png?updatedAt=1687010696520",
+      gitLink: "",
+      liveLink: ""
+    },
+
+    {
+      title: "E-Commerce Web App",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/jumiaClone.png?updatedAt=1687010694115",
+      gitLink: "",
+      liveLink: ""
+    },
+
+    {
+      title: "Javascript E-Learning for Beginner",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/javascript_tutorial.png?updatedAt=1687010698641",
+      gitLink: "",
+      liveLink: ""
+    },
+
+    {
+      title: "SalesForce Landing Page",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/salesforce.png?updatedAt=1687010691868",
+      gitLink: "",
+      liveLink: ""
+    },
+
+    {
+      title: "NTI Landing Page",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/nti.png?updatedAt=1687010704181",
+      gitLink: "",
+      liveLink: ""
+    },
+
+    {
+      title: "Tribute Landing Page",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/tribute.png?updatedAt=1687010701260",
+      gitLink: "",
+      liveLink: ""
+    }
+  ]
+
   return (
     <>
       <section id="portfolio">
@@ -12,103 +57,36 @@ const Portfolio = () => {
         <div id="portfolioCon">
 
           <div id="cardMain">
-            <div id="portfolioCard">
-              <img
-                src="/public/image/piggyvest.png"
-                alt=""
-                className="img-fluid"
-              />
+            {
+              portfolio.map((item, index) => (
 
-              <div className="portBtn">
-                <a href="https://piggy-vest.vercel.app/">
-                  <i className="fa-solid fa-code"></i>
-                </a>
+                <div id="portfolioCard" key={index}>
+                  <img
+                    src= {item.image}
+                    alt=""
+                    className="img-fluid"
+                  />
 
-                <a href="">
-                  <i className="fa-solid fa-link"></i>
-                </a>
-              </div>
-              <p>PiggyVest Landing Page</p>
-            </div>
+                  <div className="portBtn">
+                    <a href={item.gitLink}>
+                      <i className="fa-solid fa-code"></i>
+                    </a>
 
-            <div id="portfolioCard">
-              <img
-                src="/public/image/jumiaClone.png"
-                alt=""
-                className="img-fluid"
-              />
+                    <a href={item.liveLink}>
+                      <i className="fa-solid fa-link"></i>
+                    </a>
+                  </div>
+                  <p>{item.title}</p>
+                </div>
+              ))
+            }
 
-              <div className="portBtn">
-                <a href="https://jumia-clone-beta.vercel.app/" target="_blank" rel="noopener noreferrer">
-                  <i className="fa-solid fa-code"></i>
-                </a>
-
-                <a href="">
-                  <i className="fa-solid fa-link"></i>
-                </a>
-              </div>
-              <p>E-commerce Website</p>
-            </div>
-
-            <div id="portfolioCard">
-              <img
-                src="/public/image/javascript tutorial.png"
-                alt=""
-                className="img-fluid"
-              />
-
-              <div className="portBtn">
-                <a href="">
-                  <i className="fa-solid fa-code"></i>
-                </a>
-
-                <a href="">
-                  <i className="fa-solid fa-link"></i>
-                </a>
-              </div>
-              <p>Javascript E-Learning Website</p>
-            </div>
-
-            <div id="portfolioCard">
-              <img
-                src="/public/image/salesforce.png"
-                alt=""
-                className="img-fluid"
-              />
-
-              <div className="portBtn">
-                <a href="">
-                  <i className="fa-solid fa-code"></i>
-                </a>
-
-                <a href="">
-                  <i className="fa-solid fa-link"></i>
-                </a>
-              </div>
-              <p>A Clone of SalesForce Website</p>
-            </div>
-            <div id="portfolioCard">
-              <img
-                src="/public/image/tribute.png"
-                alt=""
-                className="img-fluid"
-              />
-
-              <div className="portBtn">
-                <a href="">
-                  <i className="fa-solid fa-code"></i>
-                </a>
-
-                <a href="">
-                  <i className="fa-solid fa-link"></i>
-                </a>
-              </div>
-              <p>A Tribute Landing Page Website</p>
-            </div>
-
-            <div id="seeMore"></div>
           </div>
         </div>
+        <div className="text-center">
+        <a href="" id="seeMoreBtn" >See More</a>
+        </div>
+
       </section>
     </>
   );

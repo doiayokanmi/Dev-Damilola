@@ -1,6 +1,48 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import "./styles.css";
+
+// import required modules
+import { Mousewheel, Pagination } from "swiper";
 
 const Skills = () => {
+  const skills = [
+    {
+      icon: <i className="fa-brands fa-html5"></i>,
+      title: "HTML 5",
+    },
+
+    {
+      icon: <i className="fa-brands fa-css3-alt"></i>,
+      title: "CSS 3",
+    },
+
+    {
+      icon: <i className="fa-brands fa-square-js"></i>,
+      title: "JavaScript",
+    },
+
+    {
+      icon: <i className="fa-brands fa-bootstrap"></i>,
+      title: "Bootstrap",
+    },
+
+    {
+      icon: <i className="fa-brands fa-react"></i>,
+      title: "React Js",
+    },
+
+    {
+      icon: <i className="fa-brands fa-sass"></i>,
+      title: "SaaS",
+    },
+  ];
   return (
     <>
       <section id="skillsCon">
@@ -18,43 +60,32 @@ const Skills = () => {
         </div>
 
         <div id="skills">
-          <div id="skillsCardCon">
-            <div className="skillCard">
-              <i className="fa-brands fa-html5"></i>
+          <Swiper
+            direction={"horizontal"}
+            slidesPerView={7}
+            spaceBetween={20}
+            autoplay={{delay: 3000}}
+            mousewheel={true}
+            loop={true}
+            breakpoints={{
+              640: {
+                slidesPerView: 4
+              }, 
+              1024: {
+                slidesPerView: 7
+              }
+            }}
+            modules={[Mousewheel]}
+            className="mySwiper"
+          >
+            {skills.map((items, index) => (
+              <SwiperSlide className="skillCard SwiperSlide" key={index}>
+                {items.icon}
 
-              <h5>HTML 5</h5>
-            </div>
-
-            <div className="skillCard">
-              <i className="fa-brands fa-css3-alt"></i>
-
-              <h5>CSS 3</h5>
-            </div>
-
-            <div className="skillCard">
-              <i className="fa-brands fa-bootstrap"></i>
-
-              <h5>BootStrap 5</h5>
-            </div>
-
-            <div className="skillCard">
-              <i className="fa-brands fa-square-js"></i>
-
-              <h5>JavaScript</h5>
-            </div>
-
-            <div className="skillCard">
-              <i className="fa-brands fa-react"></i>
-
-              <h5>React JS</h5>
-            </div>
-
-            <div className="skillCard">
-              <i className="fa-brands fa-sass"></i>
-
-              <h5>SaaS</h5>
-            </div>
-          </div>
+                <h5>{items.title}</h5>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </section>
     </>

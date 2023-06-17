@@ -160,29 +160,25 @@ nav {
 }
 
 #skillsCon {
-  background-image: linear-gradient(to bottom , var(--secondaryColor), transparent, var(--secondaryColor));
+  background-image: linear-gradient(to bottom , var(--secondaryColor), var(--whiteColor));
   padding: 1.4em 0;
+}
+
+#skills {
+  background-color: #fff;
+  padding: var(--paddingValue);
 }
 
 #skillText {
   padding: var(--paddingValue);
 }
 
-#skillsCardCon {
-  display: flex;
-  flex-wrap: wrap;
-  padding: var(--paddingValue);
-  justify-content: center;
-  background-image: linear-gradient(transparent, var(--whiteColor) 50%, transparent);
-}
-
 .skillCard {
   text-align: center;
-  width: 250px;
   padding: 1em;
-  border-radius: var(--borderRadius);
-  box-shadow: 0 0 5px 0 var(--secondaryColor);
+  overflow: hidden;
   margin-bottom: 20px;
+  transition: .2s ease-in-out;
   margin-left: 20px;
 }
 
@@ -196,6 +192,7 @@ nav {
 .skillCard:hover, .skillCard:hover i {
   background-color: var(--secondaryColor) !important;
   color: var(--whiteColor) !important;
+  transform: translateY(-5px) !important;
 }
 
 .skillCard:hover {
@@ -276,6 +273,11 @@ nav {
   justify-content: space-between;
 }
 
-#seeMore {
-  width: calc(100%/3.2);
+#seeMoreBtn {
+  padding: 20px;
+  margin: 20px auto;
+  color: var(--greyColor);
+  background-color: var(--blackColor);
+  display: inline-block;
+  border-radius: var(--borderRadius);
 }
