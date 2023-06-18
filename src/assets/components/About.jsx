@@ -1,7 +1,7 @@
 import React from "react";
 
 const About = () => {
-  let myPics = "./public/image/myPic2.png";
+  let myPics = "image/myPic2.png";
   return (
     <>
       <section id="about">
