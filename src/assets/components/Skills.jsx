@@ -62,7 +62,6 @@ const Skills = () => {
         <div id="skills">
           <Swiper
             direction={"horizontal"}
-            slidesPerView={7}
             spaceBetween={20}
             autoplay={{delay: 3000}}
             mousewheel={true}
@@ -71,6 +70,9 @@ const Skills = () => {
               640: {
                 slidesPerView: 4
               }, 
+              400: {
+                slidesPerView: 3
+              },
               1024: {
                 slidesPerView: 7
               }
