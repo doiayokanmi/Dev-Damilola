@@ -175,7 +175,6 @@ nav {
 .skillCard {
   text-align: center;
   padding: 1em;
-  overflow: hidden;
   margin-bottom: 20px;
   transition: .2s ease-in-out;
   margin-left: 20px;
@@ -186,17 +185,6 @@ nav {
   margin-bottom: 10px;
   color: var(--secondaryColor) !important;
 
-}
-
-.skillCard:hover, .skillCard:hover i {
-  background-color: var(--secondaryColor) !important;
-  color: var(--whiteColor) !important;
-  transform: translateY(-5px) !important;
-}
-
-.skillCard:hover {
-  background-color: var(--greyColor);
-  color: var(--blackColor);
 }
 
 #portfolio {
