@@ -57,6 +57,10 @@
     padding: 1em;
   }
 
+  #social i {
+    margin: 1em;
+  }
+
   #innerAbout img {
     width: 100%;
     margin: 1em;
