@@ -67,11 +67,11 @@ const Skills = () => {
             mousewheel={true}
             loop={true}
             breakpoints={{
-              640: {
+              320: {
                 slidesPerView: 4
               }, 
-              400: {
-                slidesPerView: 3
+              680: {
+                slidesPerView: 5
               },
               1024: {
                 slidesPerView: 7
