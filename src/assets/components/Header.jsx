@@ -19,21 +19,21 @@ const Header = () => {
 
   useEffect(() => {
     if (scrollPosition > 50) {
-      setBackgroundColor("var(--whiteColor)");
+      setBackgroundColor("var(--greyColor)");
     } else {
       setBackgroundColor("transparent");
     }
   }, [scrollPosition]);
 
-  let Logo = "./public/image/logo.png";
-  let myPics = "./public/image/myPic (2).png";
+  let Logo = "image/logo.png";
+  let myPics = "image/myPic (2).png";
   return (
     <>
       <header>
         <nav
           className="flex"
           style={{
-            backgroundColor: backgroundColor,
+            backgroundColor: backgroundColor
           }}
         >
           <a href="">

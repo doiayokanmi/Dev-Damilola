@@ -18,8 +18,8 @@
   --whiteColor: #fff;
   --greyColor: #ededed;
   --blackColor: #28282B;
-  --primaryColor: #e7053e;
-  --secondaryColor: #683ca2;
+  --secondaryColor: #2b2d42;
+  --primaryColor: #683ca2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,7 +39,6 @@ header {
   height: 100vh;
   overflow: hidden;
   background-image: linear-gradient(to top, var(--secondaryColor), var(--greyColor));
-  background-attachment: fixed;
 }
 
 span {
@@ -85,8 +84,8 @@ nav {
   align-items: center;
   position: fixed;
   top: 0;
+  z-index: 9999;
   width: 100vw;
-  border-bottom: 2px solid var(--greyColor);
 }
 
 .linkBtn {
@@ -200,11 +199,6 @@ nav {
   color: var(--blackColor);
 }
 
-#customerReview {
-  padding: 50px 5em;
-  background-color: var(--greyColor);
-}
-
 #portfolio {
   padding: 50px 5em;
 }
@@ -280,4 +274,45 @@ nav {
   background-color: var(--blackColor);
   display: inline-block;
   border-radius: var(--borderRadius);
+}
+
+#services {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--greyColor);
+  margin-top: 50px;
+}
+
+#servicesText {
+  color: var(--greyColor);
+  padding: 50px 5em;
+  flex-basis: 40%;
+  background-color: var(--secondaryColor);
+}
+
+#servicesList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 60%;
+  padding: 50px 3em;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+#servicesCard {
+  width: calc(100%/2.2);
+  text-align: center;
+}
+
+#servicesCard img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: var(--secondaryColor);
+  padding: var(--paddingValue);
+  text-align: center;
+  color: var(--whiteColor);
 }

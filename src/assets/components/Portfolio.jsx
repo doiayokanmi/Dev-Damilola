@@ -5,42 +5,42 @@ const Portfolio = () => {
   const portfolio = [
     {
       title: "PiggyVest Landing Page",
-      image: "https://ik.imagekit.io/lgpltatcf/portfolio/piggyvest.png?updatedAt=1687010696520",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/piggyvest__1_.png?updatedAt=1687089425360",
       gitLink: "",
       liveLink: ""
     },
 
     {
       title: "E-Commerce Web App",
-      image: "https://ik.imagekit.io/lgpltatcf/portfolio/jumiaClone.png?updatedAt=1687010694115",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/jumiaClone__1_.png?updatedAt=1687089426702",
       gitLink: "",
       liveLink: ""
     },
 
     {
       title: "Javascript E-Learning for Beginner",
-      image: "https://ik.imagekit.io/lgpltatcf/portfolio/javascript_tutorial.png?updatedAt=1687010698641",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/javascript_tutorial__1_.png?updatedAt=1687089426544",
       gitLink: "",
       liveLink: ""
     },
 
     {
       title: "SalesForce Landing Page",
-      image: "https://ik.imagekit.io/lgpltatcf/portfolio/salesforce.png?updatedAt=1687010691868",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/salesforce__1_.png?updatedAt=1687089496311",
       gitLink: "",
       liveLink: ""
     },
 
     {
       title: "NTI Landing Page",
-      image: "https://ik.imagekit.io/lgpltatcf/portfolio/nti.png?updatedAt=1687010704181",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/nti__1_.png?updatedAt=1687089422429",
       gitLink: "",
       liveLink: ""
     },
 
     {
       title: "Tribute Landing Page",
-      image: "https://ik.imagekit.io/lgpltatcf/portfolio/tribute.png?updatedAt=1687010701260",
+      image: "https://ik.imagekit.io/lgpltatcf/portfolio/tribute__1_.png?updatedAt=1687089427234",
       gitLink: "",
       liveLink: ""
     }

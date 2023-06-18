@@ -1,0 +1,118 @@
+@media screen and (max-width: 680px) {
+  :root {
+    --paddingValue: 1em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  nav img {
+    width: 180px;
+  }
+
+  nav div a {
+    margin-left: 1em;
+  }
+
+  #mobileMenu {
+    display: block;
+  }
+
+  #navLinksCon, #socialMedia {
+    display: none;
+  }
+
+  #heroSec {
+    padding: 140px 1em;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #heroSec div {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  #heroSec div img {
+    display: none;
+  }
+
+  #innerAbout {
+    flex-direction: column;
+    padding: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #aboutText {
+    padding: 1em;
+    text-align: center;
+  }
+
+  #social {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 1em;
+  }
+
+  #innerAbout img {
+    width: 100%;
+    margin: 1em;
+  }
+
+  #skillsCon {
+    padding: 1em 0;
+  }
+
+  .skillCard {
+    padding: 1em;
+    margin-left: 0px;
+  }
+
+  #portfolio {
+    padding: 3em 1em;
+  }
+
+  #portfolioCon,
+  #cardMain {
+    flex-direction: column;
+  }
+
+  #portfolioCard {
+    width: 100%;
+  }
+
+  #cardMain p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: var(--secondaryColor);
+    color: var(--whiteColor);
+    width: 100%;
+    padding: 1em;
+  }
+
+  #services {
+    flex-direction: column;
+  }
+
+  #servicesText {
+    padding: 3em 1em;
+    flex-basis: 100%;
+  }
+
+  #servicesList {
+    flex-basis: 100%;
+    padding: 3em 1em;
+    flex-direction: column;
+  }
+
+  #servicesCard {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
