@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-import { Mousewheel, Pagination } from "swiper";
+import { Mousewheel } from "swiper";
 
 const Skills = () => {
   const skills = [
@@ -68,7 +68,7 @@ const Skills = () => {
             loop={true}
             breakpoints={{
               320: {
-                slidesPerView: 4
+                slidesPerView: 3
               }, 
               680: {
                 slidesPerView: 5
