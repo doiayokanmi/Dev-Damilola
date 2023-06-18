@@ -78,7 +78,7 @@ const Skills = () => {
                 slidesPerView: 7
               }
             }}
-            modules={[Mousewheel]}
+            modules={[Mousewheel, Pagination]}
             className="mySwiper"
           >
             {skills.map((items, index) => (
