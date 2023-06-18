@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 // import "./styles.css";
 
 // import required modules
-import { Mousewheel } from "swiper";
+import { Mousewheel, Pagination } from "swiper";
 
 const Skills = () => {
   const skills = [
@@ -66,6 +66,7 @@ const Skills = () => {
             autoplay={{delay: 3000}}
             mousewheel={true}
             loop={true}
+            pagination={true}
             breakpoints={{
               320: {
                 slidesPerView: 3
