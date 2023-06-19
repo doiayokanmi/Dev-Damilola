@@ -46,7 +46,7 @@ const Header = () => {
             <img className="img-fluid" src={Logo} alt="" id="brandLogo" />
           </a>
 
-          <div id="navLinksCon" className={`navbar-links ${isNavOpen ? 'open' : ''}`}>
+          <div id="navLinksCon" className={`${isNavOpen ? 'open' : ''}`}>
             <a href="" className="navLink">
               About
             </a>
