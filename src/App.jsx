@@ -1,5 +1,6 @@
 import "./App.css";
 import "./phone.css"
+import 'animate.css';
 import About from "./assets/components/About";
 import Services from "./assets/components/Services";
 import Header from "./assets/components/Header";

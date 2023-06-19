@@ -2,6 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import React, { useState, useEffect } from "react";
 
 const Header = () => {
+
   const [scrollPosition, setScrollPosition] = useState(0);
   const [backgroundColor, setBackgroundColor] = useState("transparent");
 
@@ -33,7 +34,7 @@ const Header = () => {
         <nav
           className="flex"
           style={{
-            backgroundColor: backgroundColor
+            backgroundColor: backgroundColor,
           }}
         >
           <a href="">
@@ -56,6 +57,18 @@ const Header = () => {
             <a href="" className="navLink">
               Contact
             </a>
+
+            <div id="socialMobile" className="d-lg-none">
+              <a href="">
+                <i className="fa-brands fa-square-twitter"></i>
+              </a>
+              <a href="">
+                <i className="fa-brands fa-square-github"></i>
+              </a>
+              <a href="">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
           </div>
 
           <div id="socialMedia">
@@ -68,17 +81,13 @@ const Header = () => {
             <a href="">
               <i className="fa-brands fa-linkedin"></i>
             </a>
-
-            <a href="" className="linkBtn d-lg-none">
-              Hire Me
-            </a>
           </div>
 
           <i className="fa-solid fa-bars" id="mobileMenu"></i>
         </nav>
 
         <section id="heroSec">
-          <div id="heroText">
+          <div id="heroText" className="animate__animated animate__backInLeft">
             <h1 className="mb-5">
               <span>Hello!,</span> I am <br /> Damilola Ibrahim
             </h1>
@@ -87,7 +96,7 @@ const Header = () => {
               An Expert in{" "}
               <TypeAnimation
                 sequence={[
-                  "Front-End Dev",
+                  "Front-End",
                   1000,
                   "CSS3",
                   1000,
@@ -123,7 +132,7 @@ const Header = () => {
             </a>
           </div>
 
-          <div id="heroImg">
+          <div id="heroImg" className="animate__animated animate__zoomInRight">
             <img src={myPics} alt="" className="img-fluid float-end" />
           </div>
         </section>

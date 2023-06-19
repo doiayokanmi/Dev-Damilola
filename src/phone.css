@@ -12,15 +12,35 @@
   }
 
   nav div a {
-    margin-left: 1em;
+    margin-left: 0;
+    padding: 1.4em;
+    width: 100%;
+    border-bottom: 1px solid var(--secondaryColor);
   }
 
   #mobileMenu {
     display: block;
   }
 
-  #navLinksCon, #socialMedia {
+  #socialMobile {
+    margin: 20px
+  }
+
+  #socialMedia {
     display: none;
+  }
+
+  #navLinksCon {
+    position: absolute;
+    top: 3.6em;
+    width: 100%;
+    background-color: var(--greyColor);
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    height: auto;
   }
 
   #heroSec {
