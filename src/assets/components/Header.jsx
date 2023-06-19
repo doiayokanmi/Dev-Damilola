@@ -2,7 +2,6 @@ import { TypeAnimation } from "react-type-animation";
 import React, { useState, useEffect } from "react";
 
 const Header = () => {
-
   const [scrollPosition, setScrollPosition] = useState(0);
   const [backgroundColor, setBackgroundColor] = useState("transparent");
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -42,53 +41,81 @@ const Header = () => {
             backgroundColor: backgroundColor,
           }}
         >
-          <a href="">
+          <a href="index.html">
             <img className="img-fluid" src={Logo} alt="" id="brandLogo" />
           </a>
 
-          <div id="navLinksCon" className={`${isNavOpen ? 'open' : ''}`}>
-            <a href="" className="navLink">
+          <div id="navLinksCon" className={`${isNavOpen ? "open" : ""}`}>
+            <a href="#about" className="navLink">
               About
             </a>
-            <a href="" className="navLink">
+            <a href="#skillsCon" className="navLink">
               Skills
             </a>
-            <a href="" className="navLink">
+            <a href="#portfolio" className="navLink">
               Projects
             </a>
-            <a href="" className="navLink">
-              FAQs
+            <a href="#services" className="navLink">
+              Services
             </a>
-            <a href="" className="navLink">
+            <a href="#contact" className="navLink">
               Contact
             </a>
 
             <div id="socialMobile" className="d-lg-none">
-              <a href="">
+              <a
+                href="https://www.twitter.com/doiayokanmi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-square-twitter"></i>
               </a>
-              <a href="">
+              <a
+                href="http://www.github.com/doiayokanmi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-square-github"></i>
               </a>
-              <a href="">
+              <a
+                href="https://www.linkedin.com/in/ibrahim-dhikirullahi-3747181a6/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             </div>
           </div>
 
           <div id="socialMedia">
-            <a href="">
+            <a
+              href="https://www.twitter.com/doiayokanmi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fa-brands fa-square-twitter"></i>
             </a>
-            <a href="">
+            <a
+              href="http://www.github.com/doiayokanmi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fa-brands fa-square-github"></i>
             </a>
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/ibrahim-dhikirullahi-3747181a6/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <i className="fa-brands fa-linkedin"></i>
             </a>
           </div>
 
-          <i className="fa-solid fa-bars" id="mobileMenu" onClick={toggleNav}></i>
+          <i
+            className="fa-solid fa-bars"
+            id="mobileMenu"
+            onClick={toggleNav}
+          ></i>
         </nav>
 
         <section id="heroSec">
@@ -126,10 +153,13 @@ const Header = () => {
             </h2>
 
             <p className="mb-5 text-light">
-            Passionate about crafting captivating user experiences and bringing designs to life, Ibrahim Damilola is a highly skilled and dedicated Front-End Developer with a proven track record of delivering outstanding web solutions. 
+              Passionate about crafting captivating user experiences and
+              bringing designs to life, Ibrahim Damilola is a highly skilled and
+              dedicated Front-End Developer with a proven track record of
+              delivering outstanding web solutions.
             </p>
 
-            <a href="" className="linkBtn mt-5">
+            <a href="https://www.upwork.com/freelancers/~017769b81dace03e7e" target="_blank" rel="noopener noreferrer" className="linkBtn mt-5">
               Hire Me
             </a>
           </div>

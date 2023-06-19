@@ -36,7 +36,7 @@ const CustomersReview = () => {
             voluptas similique, quis laudantium accusamus.
           </p>
 
-          <a href="" id="seeMoreBtn">
+          <a href="https://www.upwork.com/freelancers/~017769b81dace03e7e" target="_blank" rel="noopener noreferrer" id="seeMoreBtn">
             Hire Me
           </a>
         </div>
