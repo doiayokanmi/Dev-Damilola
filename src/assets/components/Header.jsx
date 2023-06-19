@@ -126,10 +126,7 @@ const Header = () => {
             </h2>
 
             <p className="mb-5 text-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Asperiores voluptatibus officia similique repellendus pariatur,
-              vitae reiciendis dolore temporibus nobis aspernatur! Voluptates
-              cumque dicta aut culpa suscipit, unde dolorem odit sunt.
+            Passionate about crafting captivating user experiences and bringing designs to life, Ibrahim Damilola is a highly skilled and dedicated Front-End Developer with a proven track record of delivering outstanding web solutions. 
             </p>
 
             <a href="" className="linkBtn mt-5">
