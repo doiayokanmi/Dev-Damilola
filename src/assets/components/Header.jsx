@@ -5,6 +5,11 @@ const Header = () => {
 
   const [scrollPosition, setScrollPosition] = useState(0);
   const [backgroundColor, setBackgroundColor] = useState("transparent");
+  const [isNavOpen, setIsNavOpen] = useState(false);
+
+  const toggleNav = () => {
+    setIsNavOpen(!isNavOpen);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,7 +46,7 @@ const Header = () => {
             <img className="img-fluid" src={Logo} alt="" id="brandLogo" />
           </a>
 
-          <div id="navLinksCon">
+          <div id="navLinksCon" className={`navbar-links ${isNavOpen ? 'open' : ''}`}>
             <a href="" className="navLink">
               About
             </a>
@@ -83,7 +88,7 @@ const Header = () => {
             </a>
           </div>
 
-          <i className="fa-solid fa-bars" id="mobileMenu"></i>
+          <i className="fa-solid fa-bars" id="mobileMenu" onClick={toggleNav}></i>
         </nav>
 
         <section id="heroSec">

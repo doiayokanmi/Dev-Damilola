@@ -37,10 +37,15 @@
     background-color: var(--greyColor);
     left: 0;
     display: flex;
+    transition: .3s ease-in-out;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    height: auto;
+    height: 0;
+  }
+
+  .open {
+    height: auto !important;
   }
 
   #heroSec {
