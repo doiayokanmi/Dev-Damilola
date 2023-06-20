@@ -45,7 +45,7 @@ const Header = () => {
             <img className="img-fluid" src={Logo} alt="" id="brandLogo" />
           </a>
 
-          <div id="navLinksCon" className={`${isNavOpen ? "open" : ""}`}>
+          <div id="navLinksCon" className={`${isNavOpen ? "open" : ""}`} onClick={toggleNav}>
             <a href="#about" className="navLink">
               About
             </a>
@@ -62,7 +62,7 @@ const Header = () => {
               Contact
             </a>
 
-            <div id="socialMobile" className="d-lg-none">
+            <div id="socialMobile" className="d-lg-none" onClick={toggleNav}>
               <a
                 href="https://www.twitter.com/doiayokanmi"
                 target="_blank"
