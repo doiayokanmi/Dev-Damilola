@@ -52,10 +52,7 @@ const Skills = () => {
           </h4>
 
           <p className="text-light text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eum,
-            officiis, quaerat rem libero hic possimus obcaecati perspiciatis
-            alias labore eaque temporibus tempore similique? Nulla adipisci
-            ullam quam atque maxime!
+          The skills utilized to manifest the design goes beyond the technical skills but also include creativity, technical expertise, problem-solving, attention to detail, effective communication, adaptability, collaboration, and a keen understanding of user experience and aesthetics.
           </p>
         </div>
 

@@ -6,43 +6,43 @@ const Portfolio = () => {
     {
       title: "PiggyVest Landing Page",
       image: "https://ik.imagekit.io/lgpltatcf/portfolio/piggyvest__1_.png?updatedAt=1687089425360",
-      gitLink: "",
-      liveLink: ""
+      gitLink: "https://github.com/doiayokanmi/piggyVest",
+      liveLink: "https://piggy-vest.vercel.app/"
     },
 
     {
       title: "E-Commerce Web App",
       image: "https://ik.imagekit.io/lgpltatcf/portfolio/jumiaClone__1_.png?updatedAt=1687089426702",
-      gitLink: "",
-      liveLink: ""
+      gitLink: "https://github.com/doiayokanmi/JumiaClone",
+      liveLink: "https://jumia-clone-beta.vercel.app"
     },
 
     {
       title: "Javascript E-Learning for Beginner",
       image: "https://ik.imagekit.io/lgpltatcf/portfolio/javascript_tutorial__1_.png?updatedAt=1687089426544",
-      gitLink: "",
-      liveLink: ""
+      gitLink: "https://github.com/doiayokanmi/Js-Documentation",
+      liveLink: "https://jsdocd.netlify.app"
     },
 
     {
       title: "SalesForce Landing Page",
       image: "https://ik.imagekit.io/lgpltatcf/portfolio/salesforce__1_.png?updatedAt=1687089496311",
-      gitLink: "",
-      liveLink: ""
+      gitLink: "https://github.com/doiayokanmi/salesforce",
+      liveLink: "https://salesforced.netlify.app"
     },
 
     {
       title: "NTI Landing Page",
       image: "https://ik.imagekit.io/lgpltatcf/portfolio/nti__1_.png?updatedAt=1687089422429",
-      gitLink: "",
-      liveLink: ""
+      gitLink: "https://github.com/doiayokanmi/nti",
+      liveLink: "https://ntid.netlify.app"
     },
 
     {
       title: "Tribute Landing Page",
       image: "https://ik.imagekit.io/lgpltatcf/portfolio/tribute__1_.png?updatedAt=1687089427234",
-      gitLink: "",
-      liveLink: ""
+      gitLink: "https://github.com/doiayokanmi/FreeCodeCamp-Portfolio-Project",
+      liveLink: "https://tribute-freecodecampd.netlify.app"
     }
   ]
 
@@ -68,11 +68,11 @@ const Portfolio = () => {
                   />
 
                   <div className="portBtn">
-                    <a href={item.gitLink}>
+                    <a href={item.gitLink} target="_blank" rel="noopener noreferrer">
                       <i className="fa-solid fa-code"></i>
                     </a>
 
-                    <a href={item.liveLink}>
+                    <a href={item.liveLink} target="_blank" rel="noopener noreferrer">
                       <i className="fa-solid fa-link"></i>
                     </a>
                   </div>
@@ -84,7 +84,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="text-center">
-        <a href="" id="seeMoreBtn" >See More</a>
+        <a href="https://github.com/doiayokanmi?tab=repositories" id="seeMoreBtn" target="_blank" rel="noopener noreferrer">See More</a>
         </div>
 
       </section>
