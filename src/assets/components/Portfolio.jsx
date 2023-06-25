@@ -50,8 +50,7 @@ const Portfolio = () => {
     <>
       <section id="portfolio">
         <h4>
-          <i className="fa-solid fa-folder-open"></i> Previous Project Worked
-          On!!!
+          <i className="fa-solid fa-folder-open"></i> Previous Project Worked On!!!
         </h4>
 
         <div id="portfolioCon">

@@ -133,7 +133,7 @@ const Header = () => {
                   1000,
                   "CSS3",
                   1000,
-                  "SaaS",
+                  "SASS",
                   1000,
                   "Bootstrap",
                   1000,
