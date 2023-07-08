@@ -22,7 +22,7 @@ const Skills = () => {
       title: "React Js",
     },
     {
-      icon: <i className="fa-brands fa-database"></i>,
+      icon: <i className="fa-solid fa-database"></i>,
       title: "Mongo DB",
     },
     {
