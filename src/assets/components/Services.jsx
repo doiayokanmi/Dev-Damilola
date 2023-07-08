@@ -35,7 +35,7 @@ const CustomersReview = () => {
         <div id="servicesText">
           <h3 className="mb-4">Our services</h3>
 
-          <p className="mb-5">
+          <p className="mb-2">
             I designs and implements the user interface of a website or
             application, focusing on visual elements, responsiveness, and user
             experience and utilize REACT JS, Bootstrap, SCSS, HTML, CSS, and
@@ -45,7 +45,7 @@ const CustomersReview = () => {
 
           {
             serviceParagraph.map((par, index)=>(
-              <p key={index}>{par}</p>
+              ⚡ <p key={index}>{par}</p>
             ))
           }
 
