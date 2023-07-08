@@ -64,6 +64,7 @@ const Portfolio = () => {
                     src= {item.image}
                     alt=""
                     className="img-fluid"
+                    loading = "lazy"
                   />
 
                   <div className="portBtn">
