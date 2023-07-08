@@ -23,6 +23,12 @@ const CustomersReview = () => {
       desc: "Technical writing is the practice of creating clear and concise documentation that effectively communicates complex information or instructions to users.",
     },
   ];
+
+  const serviceParagraph = [
+    "Develop highly interactive Front end / User Interfaces for your web and mobile applications",
+    "Progressive Web Applications ( PWA ) in normal and SPA Stacks",
+    "Integration of third party services such as Firebase/ AWS / Digital Ocean",
+  ];
   return (
     <>
       <section id="services">
@@ -36,6 +42,12 @@ const CustomersReview = () => {
             JavaScript to create interactive and engaging interfaces that
             enhance usability and accessibility for the end users.
           </p>
+
+          {
+            serviceParagraph.map((par, index)=>(
+              <p key={index}>{par}</p>
+            ))
+          }
 
           <a
             href="https://www.upwork.com/freelancers/~017769b81dace03e7e"
