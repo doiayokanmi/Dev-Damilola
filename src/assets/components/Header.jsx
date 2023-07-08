@@ -122,7 +122,7 @@ const Header = () => {
         <section id="heroSec">
           <div id="heroText" className="animate__animated animate__backInLeft">
             <h1 className="mb-5">
-              <span>Hello!,</span> I am <br /> Damilola Ibrahim
+              <span>Hello!, 👋</span> I am <br /> Damilola Ibrahim
             </h1>
 
             <h2>
@@ -154,10 +154,7 @@ const Header = () => {
             </h2>
 
             <p className="mb-5 text-light">
-              Passionate about crafting captivating user experiences and
-              bringing designs to life, Ibrahim Damilola is a highly skilled and
-              dedicated Front-End Developer with a proven track record of
-              delivering outstanding web solutions.
+            A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / React JS / Node JS / Mongo DB / Express JS and some other cool libraries and frameworks.
             </p>
 
             <a href="https://www.upwork.com/freelancers/~017769b81dace03e7e" target="_blank" rel="noopener noreferrer" className="linkBtn mt-5">

@@ -12,7 +12,7 @@ const About = () => {
             <h3 className="mb-4">I&#39;m A Professional Front-End Developer</h3>
 
             <p className="mb-5">
-            Ibrahim Damilola is passionate Front-End Developer with over 3 years experiences. I am skilled in React Js, Bootstrap, SaaS, HTML, CSS, and JavaScript, with my skills, I have design and develop some user-friendly and responsive web app, I bring designs to life with clean, responsive code. Collaborative and dedicated to delivering exceptional user experiences, I stay updated with industry trends to create visually stunning websites that make a lasting impact.
+            Ibrahim Damilola is passionate Full Stack Developer with over 3 years experiences. I am skilled in JavaScript / React JS / Node JS / Mongo DB / Express JS, Bootstrap, SaaS, HTML, CSS, and Tailwind CSS. With my skills, I have design and develop some user-friendly and responsive web applications, I bring designs to life with clean, responsive and documented code. Collaborative and dedicated to delivering exceptional user experiences, I stay updated with industry trends to create visually stunning websites that make a lasting impact.
             </p>
 
             <div>

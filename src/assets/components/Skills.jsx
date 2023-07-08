@@ -14,6 +14,18 @@ import { Mousewheel, Pagination } from "swiper";
 const Skills = () => {
   const skills = [
     {
+      icon: <i className="fa-brands fa-node"></i>,
+      title: "Node JS",
+    },
+    {
+      icon: <i className="fa-brands fa-react"></i>,
+      title: "React Js",
+    },
+    {
+      icon: <i className="fa-brands fa-database"></i>,
+      title: "Mongo DB",
+    },
+    {
       icon: <i className="fa-brands fa-html5"></i>,
       title: "HTML 5",
     },
@@ -33,10 +45,6 @@ const Skills = () => {
       title: "Bootstrap",
     },
 
-    {
-      icon: <i className="fa-brands fa-react"></i>,
-      title: "React Js",
-    },
 
     {
       icon: <i className="fa-brands fa-sass"></i>,
