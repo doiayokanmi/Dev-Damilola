@@ -74,7 +74,7 @@ const Skills = () => {
             pagination={true}
             breakpoints={{
               320: {
-                slidesPerView: 3
+                slidesPerView: 4
               }, 
               680: {
                 slidesPerView: 5
