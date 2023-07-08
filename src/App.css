@@ -175,13 +175,14 @@ nav {
 .skillCard {
   text-align: center;
   padding: 1em;
+  font-size: small;
   margin-bottom: 20px;
   transition: .2s ease-in-out;
   margin-left: 20px;
 }
 
 .skillCard i {
-  font-size: 4em;
+  font-size: 3em;
   margin-bottom: 10px;
   color: var(--secondaryColor) !important;
 
