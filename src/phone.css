@@ -65,13 +65,13 @@
 
   #innerAbout {
     flex-direction: column;
-    padding: 0;
+    padding: 1em;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
   #aboutText {
-    padding: 1em;
+    padding: 0;
     text-align: center;
   }
 
