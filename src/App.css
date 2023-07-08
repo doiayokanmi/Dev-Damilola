@@ -175,10 +175,13 @@ nav {
 .skillCard {
   text-align: center;
   padding: 1em;
-  font-size: .6em;
   margin-bottom: 20px;
   transition: .2s ease-in-out;
   margin-left: 20px;
+}
+
+.skillCard h5 {
+  font-size: .6em;
 }
 
 .skillCard i {
