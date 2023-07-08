@@ -65,7 +65,7 @@
 
   #innerAbout {
     flex-direction: column;
-    padding: 1em;
+    padding: 0;
     margin-top: 20px;
     margin-bottom: 20px;
   }
