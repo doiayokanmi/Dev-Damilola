@@ -25,10 +25,11 @@ const CustomersReview = () => {
   ];
 
   const serviceParagraph = [
+    "I designs and implements the user interface of a website or application, focusing on visual elements, responsiveness, and user experience and utilize REACT JS, Bootstrap, SCSS, HTML, CSS, and JavaScript to create interactive and engaging interfaces that enhance usability and accessibility for the end users.",
     "Develop highly interactive Front end / User Interfaces for your web and mobile applications",
     "Progressive Web Applications ( PWA ) in normal and SPA Stacks",
-    "Integration of third party services such as Firebase/ AWS / Digital Ocean",
-    "I designs and implements the user interface of a website or application, focusing on visual elements, responsiveness, and user experience and utilize REACT JS, Bootstrap, SCSS, HTML, CSS, and JavaScript to create interactive and engaging interfaces that enhance usability and accessibility for the end users."
+    "Database Management and Development",
+    "Back End Development"
   ];
   return (
     <>
