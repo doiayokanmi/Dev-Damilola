@@ -320,10 +320,14 @@ nav {
   box-shadow: 0 0 5px 0 var(--primaryColor);
 }
 
+#eduCard:hover {
+  color: var(--greyColor);
+}
+
 #eduCard::before {
   content: "✍";
   position: absolute;
-  width: 50px;
+  width: 80px;
   height: 50px;
   padding: 5px;
   text-align: right;
