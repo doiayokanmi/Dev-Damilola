@@ -155,6 +155,10 @@
     border-bottom-left-radius: 50%;
   }
 
+  #eduCard:hover {
+    color: #000;
+  }
+
   #eduCard {
     width: 100%;
   }
