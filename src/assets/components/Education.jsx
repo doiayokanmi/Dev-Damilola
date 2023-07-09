@@ -10,34 +10,36 @@ const Education = () => {
         },
         {
             title: "The Polytechnic, Ibadan",
-            cert: "Higher National Diploma in Computer Science",
+            cert: "H. National Diploma in Computer Science",
             img: "/image/Polyibadan.png",
             year: "October, 2016 - November, 2018"
         },
         {
             title: "The Polytechnic, Ibadan",
-            cert: "Higher National Diploma in Computer Science",
+            cert: "National Diploma in Computer Science",
             img: "/image/Polyibadan.png",
             year: "October, 2016 - November, 2018"
         }
     ]
   return (
     <>
-        <h3>Education</h3>
+        <div id="education">
+        <h4>Education <i class="fa-solid fa-graduation-cap"></i></h4>
         <div id="educationCon">
         {
             schools.map((sch, index) => (
 
             <div key={index} id="eduCard">
-                <img className='img-fluid' width={"80px"} src={sch.img} alt="" />
+                <img className='img-fluid' width={"50px"} src={sch.img} alt="" />
                 <h5>{sch.title}</h5>
-                <strong>{sch.cert}</strong>
+                <h5>{sch.cert}</h5>
                 <em>{sch.year}</em>
             </div>
 
             ))
         }
 
+        </div>
         </div>
     </>
   )
