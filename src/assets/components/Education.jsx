@@ -32,7 +32,7 @@ const Education = () => {
             <div className='my-3' key={index} id="eduCard">
                 <img className='img-fluid mb-2' width={"50px"} src={sch.img} alt="" />
                 <h5>{sch.title}</h5>
-                <h5>{sch.cert}</h5>
+                <h5 className='mb-2'>{sch.cert}</h5>
                 <em>{sch.year}</em>
             </div>
 
