@@ -24,12 +24,12 @@ const Education = () => {
   return (
     <>
         <div id="education">
-        <h4>Education <i class="fa-solid fa-graduation-cap"></i></h4>
+        <h4 className='my-2'>Education <i class="fa-solid fa-graduation-cap"></i></h4>
         <div id="educationCon">
         {
             schools.map((sch, index) => (
 
-            <div key={index} id="eduCard">
+            <div className='my-3' key={index} id="eduCard">
                 <img className='img-fluid' width={"50px"} src={sch.img} alt="" />
                 <h5>{sch.title}</h5>
                 <h5>{sch.cert}</h5>
