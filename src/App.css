@@ -327,17 +327,15 @@ nav {
 #eduCard::before {
   content: "✍";
   position: absolute;
-  width: 0;
-  height: 0;
-  border-top: 50px solid transparent;
-  border-right: 50px solid var(--primaryColor);
+  width: 40px;
+  height: 40px;
   padding: 5px;
   text-align: right;
   border-bottom-left-radius: 50%;
   top: 0;
   right: 0;
   z-index: -1;
-  transition: .3s ease-in-out;
+  transition: .2s ease-in-out;
   background-color: var(--primaryColor);
 } 
 
@@ -346,8 +344,6 @@ nav {
   height: 100%;
   color: #fff;
   border-bottom-left-radius: 0;
-  border-top: 0;
-  border-right: 0;
 }
 
 footer {
