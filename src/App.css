@@ -306,6 +306,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: var(--paddingValue);
 }
 
 #eduCard {
