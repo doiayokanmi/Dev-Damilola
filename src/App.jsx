@@ -7,6 +7,7 @@ import Header from "./assets/components/Header";
 import Portfolio from "./assets/components/Portfolio";
 import Skills from "./assets/components/Skills";
 import Footer from "./assets/components/Footer";
+import Education from "./assets/components/Education";
 
 function App() {
   return (
@@ -14,9 +15,11 @@ function App() {
       <Header />
       <About />
       <Skills />
+      <Education/>
       <Services />
       <Portfolio />
       <Footer />
+
     </>
   );
 }

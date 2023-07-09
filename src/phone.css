@@ -148,4 +148,8 @@
     text-align: center;
     margin-bottom: 20px;
   }
+
+  #eduCard {
+    width: 100%;
+  }
 }

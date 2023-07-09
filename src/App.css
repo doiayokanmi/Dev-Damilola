@@ -302,6 +302,16 @@ nav {
   margin-bottom: 10px;
 }
 
+#educationCon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#eduCard {
+  width: calc(100%/3.3);
+}
+
 footer {
   background-color: var(--secondaryColor);
   padding: var(--paddingValue);
