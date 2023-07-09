@@ -30,7 +30,7 @@ const Education = () => {
             schools.map((sch, index) => (
 
             <div className='my-3' key={index} id="eduCard">
-                <img className='img-fluid' width={"50px"} src={sch.img} alt="" />
+                <img className='img-fluid mb-2' width={"50px"} src={sch.img} alt="" />
                 <h5>{sch.title}</h5>
                 <h5>{sch.cert}</h5>
                 <em>{sch.year}</em>

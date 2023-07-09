@@ -313,7 +313,7 @@ nav {
 }
 
 #eduCard {
-  width: calc(100%/3.3);
+  width: calc(100%/3.2);
   padding: 1em;
   box-shadow: 0 0 5px 0 var(--primaryColor);
 }
