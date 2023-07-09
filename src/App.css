@@ -348,7 +348,6 @@ nav {
 #eduCard:hover::before {
   width: 100%;
   height: 100%;
-  color: #fff;
   border-bottom-left-radius: 0;
 }
 

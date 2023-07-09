@@ -149,6 +149,12 @@
     margin-bottom: 20px;
   }
 
+  #eduCard:hover::before {
+    width: 40px;
+    height: 40px;
+    border-bottom-left-radius: 50%;
+  }
+
   #eduCard {
     width: 100%;
   }

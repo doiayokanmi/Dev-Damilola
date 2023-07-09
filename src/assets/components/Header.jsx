@@ -32,6 +32,28 @@ const Header = () => {
 
   let Logo = "image/logo.png";
   let myPics = "image/myPic (2).png";
+  const navlinks = [
+    {
+      title: "About",
+      link: "#about",
+    },
+    {
+      title: "Skills",
+      link: "#skillsCon",
+    },
+    {
+      title: "Project",
+      link: "#portfolio",
+    },
+    {
+      title: "Services",
+      link: "#services",
+    },
+    {
+      title: "Education",
+      link: "#education",
+    },
+  ];
   return (
     <>
       <header>
@@ -45,24 +67,17 @@ const Header = () => {
             <img className="img-fluid" src={Logo} alt="" id="brandLogo" />
           </a>
 
-          <div id="navLinksCon" className={`${isNavOpen ? "open" : ""}`} onClick={toggleNav}>
-            <a href="#about" className="navLink">
-              About
-            </a>
-            <a href="#skillsCon" className="navLink">
-              Skills
-            </a>
-            <a href="#portfolio" className="navLink">
-              Projects
-            </a>
-            <a href="#services" className="navLink">
-              Services
-            </a>
-            <a href="#contact" className="navLink">
-              Contact
-            </a>
+          <div
+            id="navLinksCon"
+            className={`${isNavOpen ? "open" : ""}`}
+            onClick={toggleNav}
+          >
+            {navlinks.map((navlink, index) => (
+              <a key={index} href={navlink.link} className="navLink">
+                {navlink.title}
+              </a>
+            ))}
 
-        
             <div id="socialMobile" className="d-lg-none" onClick={toggleNav}>
               <a
                 href="https://www.twitter.com/doiayokanmi"
@@ -154,10 +169,18 @@ const Header = () => {
             </h2>
 
             <p className="mb-5 text-light">
-            A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / React JS / Node JS / Mongo DB / Express JS and some other cool libraries and frameworks.
+              A passionate Full Stack Software Developer 🚀 having an experience
+              of building Web applications with JavaScript / React JS / Node JS
+              / Mongo DB / Express JS and some other cool libraries and
+              frameworks.
             </p>
 
-            <a href="https://www.upwork.com/freelancers/~017769b81dace03e7e" target="_blank" rel="noopener noreferrer" className="linkBtn mt-5">
+            <a
+              href="https://www.upwork.com/freelancers/~017769b81dace03e7e"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="linkBtn mt-5"
+            >
               Hire Me
             </a>
           </div>
