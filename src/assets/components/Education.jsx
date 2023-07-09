@@ -3,10 +3,10 @@ import React from 'react'
 const Education = () => {
     const schools = [
         {
-            title: "The Polytechnic, Ibadan",
-            cert: "Higher National Diploma in Computer Science",
-            img: "/image/Polyibadan.png",
-            year: "October, 2016 - November, 2018"
+            title: "SQI College Of ICT",
+            cert: "Full Stack Development",
+            img: "/image/SQI.png",
+            year: "January, 2023 - November, 2023"
         },
         {
             title: "The Polytechnic, Ibadan",
@@ -18,7 +18,7 @@ const Education = () => {
             title: "The Polytechnic, Ibadan",
             cert: "National Diploma in Computer Science",
             img: "/image/Polyibadan.png",
-            year: "October, 2016 - November, 2018"
+            year: "October, 2012 - November, 2014"
         }
     ]
   return (
