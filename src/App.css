@@ -315,7 +315,19 @@ nav {
 #eduCard {
   width: calc(100%/3.2);
   padding: 1em;
+  position: relative;
+  border-radius: var(--borderRadius);
   box-shadow: 0 0 5px 0 var(--primaryColor);
+}
+
+#eduCard::before {
+  content: '<i class="fa-solid fa-graduation-cap"></i>';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: var(--primaryColor);
 }
 
 footer {
