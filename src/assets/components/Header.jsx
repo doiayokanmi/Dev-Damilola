@@ -113,7 +113,7 @@ const Header = () => {
           </div>
 
           <i
-            className="fa-solid fa-bars"
+            className={isNavOpen ? "fa-solid fa-bars" : "fa-solid fa-xmark"}
             id="mobileMenu"
             onClick={toggleNav}
           ></i>
