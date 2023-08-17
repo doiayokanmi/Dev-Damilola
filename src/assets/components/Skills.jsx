@@ -1,4 +1,6 @@
 import React from "react";
+import { SiNextdotjs, SiTypescript } from 'react-icons/si'
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,10 +10,56 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Mousewheel, Pagination } from "swiper";
-import { skills } from "../../../constants";
 
 const Skills = () => {
+
+const skills = [
+  {
+    icon: <SiNextdotjs />,
+    title: "Next JS",
+  },
+
   
+  {
+    icon: <SiTypescript />,
+    title: "TypeScript",
+  },
+  {
+    icon: <i className="fa-brands fa-node"></i>,
+    title: "Node JS",
+  },
+  {
+    icon: <i className="fa-brands fa-react"></i>,
+    title: "React Js",
+  },
+  {
+    icon: <i className="fa-solid fa-database"></i>,
+    title: "Mongo DB",
+  },
+  {
+    icon: <i className="fa-brands fa-html5"></i>,
+    title: "HTML 5",
+  },
+
+  {
+    icon: <i className="fa-brands fa-css3-alt"></i>,
+    title: "CSS 3",
+  },
+
+  {
+    icon: <i className="fa-brands fa-square-js"></i>,
+    title: "JavaScript",
+  },
+
+  {
+    icon: <i className="fa-brands fa-bootstrap"></i>,
+    title: "Bootstrap",
+  },
+  {
+    icon: <i className="fa-brands fa-sass"></i>,
+    title: "SaaS",
+  },
+];
   return (
     <>
       <section id="skillsCon">
