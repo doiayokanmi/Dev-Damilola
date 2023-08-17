@@ -15,11 +15,11 @@ const Skills = () => {
 
 const skills = [
   {
-    icon: <i><SiNextdotjs size={24} /></i>,
+    icon: <i><SiNextdotjs style='margin: 0;' /></i>,
     title: "Next JS",
   },
   {
-    icon: <i><SiTypescript size={24} /></i>,
+    icon: <i><SiTypescript style='margin: 0;' /></i>,
     title: "TypeScript",
   },
   {
