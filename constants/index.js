@@ -6,7 +6,7 @@ export const skills = [
     icon: <SiNextdotjs />,
     title: "Next JS",
   },
-  
+  lll
   {
     icon: <SiTypescript />,
     title: "TypeScript",
