@@ -1,4 +1,4 @@
-import { SiNextdotjs } from 'react-icon/si'
+import { SiNextdotjs, SiTypescript } from 'react-icon/si'
 
 
 export const skills = [
@@ -6,8 +6,9 @@ export const skills = [
     icon: <SiNextdotjs />,
     title: "Next JS",
   },
+  
   {
-    icon: <i className="fa-brands fa-sass"></i>,
+    icon: <SiTypescript />,
     title: "TypeScript",
   },
   {
