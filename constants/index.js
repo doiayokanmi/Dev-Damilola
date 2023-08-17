@@ -1,4 +1,4 @@
-import { SiNextdotjs, SiTypescript } from 'react-icon/si'
+import { SiNextdotjs, SiTypescript } from 'react-icons/si'
 
 
 export const skills = [
