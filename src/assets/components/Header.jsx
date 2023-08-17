@@ -1,5 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import React, { useState, useEffect } from "react";
+import { navlinks } from "../../../constants";
 
 const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -32,28 +33,7 @@ const Header = () => {
 
   let Logo = "image/logo.png";
   let myPics = "image/myPic (2).png";
-  const navlinks = [
-    {
-      title: "About",
-      link: "#about",
-    },
-    {
-      title: "Skills",
-      link: "#skillsCon",
-    },
-    {
-      title: "Project",
-      link: "#portfolio",
-    },
-    {
-      title: "Services",
-      link: "#services",
-    },
-    {
-      title: "Education",
-      link: "#education",
-    },
-  ];
+  
   return (
     <>
       <header>
