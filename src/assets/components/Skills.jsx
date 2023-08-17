@@ -15,13 +15,13 @@ const Skills = () => {
 
 const skills = [
   {
-    icon: <SiNextdotjs />,
+    icon: <i><SiNextdotjs /></i>,
     title: "Next JS",
   },
 
   
   {
-    icon: <SiTypescript />,
+    icon: <i><SiTypescript /></i>,
     title: "TypeScript",
   },
   {
